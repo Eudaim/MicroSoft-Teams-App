@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "id": "97d5fce0-755b-11ec-bc3c-f7a607f203be",
+  "version": "0.0.1",
+  "packageName": "learnmsteamstabs",
+  "developer": {
+    "name": "Default",
+    "websiteUrl": "https://5825-144-174-212-68.ngrok.io",
+    "privacyUrl": "https://5825-144-174-212-68.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://5825-144-174-212-68.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "CGE",
+    "full": "CGE"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "9573b4e6-e027-44f4-aa87-a94dea06bef2",
+      "name": "learn Tab",
+      "contentUrl": "https://5825-144-174-212-68.ngrok.io/learnTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "5825-144-174-212-68.ngrok.io"
+  ],
+  "showLoadingIndicator": false
+}
